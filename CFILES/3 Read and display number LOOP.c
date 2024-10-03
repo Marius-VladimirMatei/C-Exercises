@@ -25,6 +25,6 @@ void main() {
     
     while (choice == 'y' || choice == 'Y');
 
-    printf("Thank you for using the program!\n");
+    printf_s("Thank you for using the program!\n");
 
 }
