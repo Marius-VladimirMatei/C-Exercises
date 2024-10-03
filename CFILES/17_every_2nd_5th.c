@@ -9,7 +9,7 @@ int main() {
 
 	printf_s("Here is every 2nd number from 1-50:\n");
 
-	for (i = 0; i <= 50; i +=2) {
+	for (i = 2; i <= 50; i +=2) {
 		printf_s("%d\n", i);
 	}
 
@@ -18,7 +18,7 @@ int main() {
 
 	printf_s("Here is every 5th number from 1-50:\n");
 
-	for (i = 0; i <= 50; i += 5) {
+	for (i = 5; i <= 50; i += 5) {
 		printf_s("%d\n", i);
 	}
 
