@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// Day of the year - number calculator
+
 void main() {
 
 	int day;
