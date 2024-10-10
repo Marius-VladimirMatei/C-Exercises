@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Interest rate calulator
+
 int main() {
 	float start_capital;
 	float interest_rate = 4.5; // 4.5 % (4.5 divided by 100)
