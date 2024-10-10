@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+// Greatest common divisor
 
 #define MAX(x, y) ((x) > (y) ? (x) : (y))		//Macro to determine MAX
 #define MIN(x, y) ((x) < (y) ? (x) : (y))		//Macro to determine MIN
