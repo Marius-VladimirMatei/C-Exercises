@@ -39,8 +39,12 @@ void main() {
 
     if (is_leap_year) {
         days_in_month[1] = 29;
+        printf_s("%d is leap year (February has 29 days). \n", year);
     }
 
+    else {
+        printf_s("%d is NOT leap year (February has 28 days). \n", year);
+    }
 
 // Calculate the day of the year
 

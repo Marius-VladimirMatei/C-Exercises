@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-// Interest rate calulator
+// Interest rate calculator
+
 
 int main() {
 	float start_capital;
-	float interest_rate = 4.5; // 4.5 % (4.5 divided by 100)
+	float interest_rate = 2; // 4.5 % (4.5 divided by 100)
 	float goal;
 	int years = 0;
 
@@ -16,10 +17,10 @@ int main() {
 
 	printf_s("Your yearly interest rate is: %.1f\n", interest_rate);
 
-	printf_s("Enter your Goal: \n");
+	printf_s("Enter the sum you want to achieve (your goal): \n");
 	scanf_s("%f", &goal);
 
-	// Loop until start capital reacehes the goal
+	// Loop until start capital reaches the goal
 
 	while (start_capital <= goal) {
 

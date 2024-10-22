@@ -9,13 +9,14 @@
 int main() {
 	int x;
 	int y;
-
+	
 
 	// Prompt user for number input
 
+
 	printf_s("Enter the first positive (natural) number: \n");
 	scanf_s("%d", &x);
-	printf_s("Enter the first positive (natural) number: \n");
+	printf_s("Enter the second positive (natural) number: \n");
 	scanf_s("%d", &y);
 
 	 while (x != y) {
@@ -26,7 +27,7 @@ int main() {
         y = smaller;             // Keep the smaller value in 'y'
     }                 
 	
-	printf_s("The CCD is: %d\n", x);
+	printf_s("The greatest common divisor is: %d\n", x);
 
 	return 0;
 }
